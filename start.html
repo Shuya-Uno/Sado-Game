@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sado</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cast.css">
+    <style>
+
+      img {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 25%;
+      }
+
+      #message {
+        margin: 5px 20% 5px 20%;
+        padding: 2px 2% 2px 2%;
+        background-color: white;
+      }
+
+      #intro {
+        padding: 5px 5px 12px 5px;
+      }
+
+      #letter {
+        background-color: gold;
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 45px 0px 45px 50px;
+      }
+
+      br {
+        display: block;
+        width: 0;
+        height: 0;
+      }
+
+      #salutation {
+        padding-bottom: 20px;
+      }
+
+      #regards {
+        padding-top: 20px;
+      }
+
+      #following-message {
+        padding: 20px 5px 50px 5px;
+      }
+
+      #text-box {
+        background-color: gold;
+        padding: 20px 0px 20px 50px;
+        border-radius: 30px;
+      }
+
+      h2 {
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-style: italic;
+      }
+
+      input {
+        border-radius: 30px;
+      }
+
+    </style>
+    <script type="text/javascript" src="js/nameChanger.js" defer></script>
+  </head>
+
+  <body>
+    <figure id="image-container">
+      <img src="images/carrier-pigeon.png">
+    </figure>
+
+    <div id="message-container">
+      <p id="intro">On one sunny day, a pigeon brought you a letter from your friend saying...</p>
+
+      <div id="letter">
+        <p>
+          <div id="salutation">Dear you,</div>
+          <br />
+
+          <div>Hi, how have you been?</div>
+          <br />
+          <div>We are having a Japanese tea ceremony this Sunday.</div>
+          <br />
+          <div>We would be very happy if you could come and join us.</div>
+          <br />
+          <div>We are waiting for you at the tea room.</div>
+          <br />
+
+          <div id="regards">
+            <div >Yours Sincerly,</div>
+            <br />
+            <div>Me</div>
+          </div>
+
+        </p>
+      </div>
+
+      <div id="following-message">
+        <p>Tea ceremony... Sounds pretty nice!</p>
+
+        <div id="cast">
+          <p>After a moment of thought, you decided to...</p>
+        </div>
+
+        <div class="decisions">
+          <div class="decision">
+            <a href="chose-attend.html">→Attend the tea ceremony</a>
+          </div>
+          <div class="decision">
+            <a href ="chose-dismiss.html">→Do something else that day</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="text-box">
+        <h2>Playground!</h2>
+
+        <p>Entering your name below will change the name in the letter above!</p>
+
+        <input id="input">
+        <button>Enter</button>
+      </div>
+    </div>
+  </body>
+</html>

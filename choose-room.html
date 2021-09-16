@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sado</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cast.css">
+    <style>
+
+    img:hover {
+      cursor: pointer;
+    }
+
+    .chose-washitsu,
+    .chose-party-room {
+      width: 25%;
+    }
+
+    </style>
+    <script type="text/javascript" src="js/goTo.js" defer></script>
+  </head>
+
+  <body>
+    <figure id="image-container">
+      <img src="images/washitsu-entrance.jpg" class="chose-washitsu routes">
+      <img src="images/banquet-entrance.jpg" class="chose-party-room routes">
+    </figure>
+    <div id="message-container">
+      <p>You got up, ate breakfast and came to the place the sado ceremony is held. </p>
+      <p>You see two rooms here, one being a Japanese-style room and the other a gorgeous banquet room. </p>
+      <p>Since the area is quite crowded, you can't find any clues about which is holding what.</p>
+
+      <div id="cast">
+        <p>You feel that sado ceremony is held in...</p>
+      </div>
+
+      <div class="decisions">
+        <div class="decision">
+          <a href="chose-washitsu.html">→A Japanese-style room</a>
+        </div>
+        <div class="decision">
+          <a href="chose-party-room.html">→A banquet room</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

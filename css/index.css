@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../web-fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../web-fonts/DroidSerif-Regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../web-fonts/DroidSerif-Italic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../web-fonts/DroidSerif-Bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../web-fonts/DroidSerif-BoldItalic-webfont.woff") format("woff");
+  font-style: italic;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: gold;
+  background-color: black;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1,
+h2,
+#credit {
+  font-family: "DroidSerif", serif;
+}
+
+h1 {
+margin-top: 10px;
+font-size: 2em;
+}
+
+h2, span {
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#credit {
+  font-size: 0.9em;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 30px;
+  width:45%;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+#start-bar{
+  margin: 0 25% 5px 25%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.175s;
+  /*font-family: Rockwell, serif;*/
+}
+
+a:hover {
+  color: gold;
+}
+
+p {
+  text-align: right;
+  margin-right: 1%;
+}
