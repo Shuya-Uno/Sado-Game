@@ -7,9 +7,9 @@
   again refined for any use cases (now refers to class instead of id)
 */
 
-var target  = document.getElementsByClassName('routes')
+const target  = document.getElementsByClassName('routes')
 // cache collection of DOM queries
-var numberTargets = target.length;
+const numberTargets = target.length;
 // check the number of nodes in the collection
 
 function goTo(e) {
@@ -25,7 +25,7 @@ function goTo(e) {
   */
 }
 
-var i = 0;
+let i = 0;
 while (numberTargets > i) {
   target[i].addEventListener('click', goTo);
   i++;

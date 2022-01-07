@@ -6,9 +6,9 @@
    a substitute for putting image inside the <a> element
 */
 
-var change = document.querySelector('a');
-var triggerOne = document.getElementsByClassName('routes')[0];
-var triggerTwo = change.parentNode;
+const change = document.querySelector('a');
+const triggerOne = document.getElementsByClassName('routes')[0];
+const triggerTwo = change.parentNode;
 /*
    cache DOM queries
    triggerTwo, by traversing the DOM
