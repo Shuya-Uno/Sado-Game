@@ -16,6 +16,6 @@
 ・Those who like to have matcha, and cute japanese sweets
 
 
-### Play it here...🍵
+### Play it here...!
 
-&nbsp;&nbsp;&nbsp;&nbsp;<https://shuya-uno.github.io/Sado-Game/>
+&nbsp;&nbsp;&nbsp;&nbsp;🍡 <https://shuya-uno.github.io/Sado-Game/> 🍵
