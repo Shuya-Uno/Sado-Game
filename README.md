@@ -1,5 +1,5 @@
 
-# Sado-Game (Sado ~Japanese Tea Ceremony~)
+# Sado-Game (Sado \~Japanese Tea Ceremony\~)
 
 ・CYOA game (Multi-ending)
 ・Can experience Japanese Tea Ceremony
