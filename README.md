@@ -18,4 +18,4 @@
 
 ### Play it here...
 
-&nbsp;<https://shuya-uno.github.io/Sado-Game/>
+&nbsp;&nbsp;&nbsp;&nbsp;<https://shuya-uno.github.io/Sado-Game/>
