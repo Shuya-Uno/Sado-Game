@@ -13,7 +13,7 @@
 
 ・Exchange students, who is curious about Japanese culture/traditions  
 ・All the people who are interested in Japanese culture, regardless of living inside/outside Japan  
-・Those who love to enjoy matcha, and cute Japanese sweets (like me!)
+・Those who love to enjoy matcha, and cute Japanese sweets
 
 
 ### Play it here...!
