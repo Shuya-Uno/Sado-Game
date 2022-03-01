@@ -6,8 +6,7 @@
 ・CYOA game (Multi-ending)  
 ・Can experience Japanese Tea Ceremony  
 ・Full of jokes (especially in various endings)  
-・Originally created for exchange students in Japan
- <!-- (to know about Japanese Tea Ceremony through fun game)   -->
+・Originally created for exchange students in Japan <!-- (to know about Japanese Tea Ceremony through fun game)   -->  
 ・Free for everyone!
 
 ### This game is for...
