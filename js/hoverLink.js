@@ -1,28 +1,33 @@
 
 /*
    hoverLink script
-   hovering on and off the image also changes the color of link
-
-   a substitute for putting image inside the <a> element
+   Hovering on and off the image changes the color of the link (below)
+   (a substitute for putting image inside the <a> element)
 */
 
 const change = document.querySelector('a');
 const triggerOne = document.getElementsByClassName('routes')[0];
 const triggerTwo = change.parentNode;
 /*
-   cache DOM queries
-   triggerTwo, by traversing the DOM
-   (at least refering to the parent node is perfectly safe)
+   Cache DOM queries
+   For triggerTwo, done by traversing the DOM
+    (referring to the parent node is perfectly safe)
 */
+
+const colored = "#ffd328";
+const original = "#000";
+
+
 function lightOn() {
-  change.style.color = "#ffd328";
+  change.style.color = colored;
 }
-// hovering on element changes the color of the link
+// Hovering on element changes the color of the link
 
 function lightOff() {
-  change.style.color = "black";
+  change.style.color = original;
 }
-// hovering off element changes the color of the link to what it used to be
+// Hovering off element changes the color of the link back to what it used to be
+
 
 triggerOne.addEventListener('mouseover', lightOn);
 triggerOne.addEventListener('mouseout', lightOff);
@@ -32,9 +37,8 @@ change.addEventListener('mouseover', lightOn);
 change.addEventListener('mouseout', lightOff);
 
 /*
-   add event listener to the link itself too, since once color is changed by script,
-   CSS :hover style will lose effect
-   (the biggest downside)
+   Add event listener to the link itself too, since once color is changed by script,
+    CSS :hover style will lose effect (downside)
 
    reccomendation: leave :hover intact for those having JavaScript disabled
 */
