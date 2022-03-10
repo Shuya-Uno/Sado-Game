@@ -40,9 +40,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: black;
+  --sub-color: white;
+  --accent-color: gold;
+}
+
 body {
-  color: gold;
-  background-color: black;
+  color: var(--accent-color);
+  background-color: var(--main-color);
 
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -89,22 +95,21 @@ img:hover {
 
 #start-bar{
   margin: 0 25% 5px 25%;
-  background-color: white;
+  background-color: var(--sub-color);
   border-radius: 30px;
 }
 
 a {
-  color: black;
+  color: var(--main-color);
   text-decoration: none;
   transition: all 0.175s;
-  /*font-family: Rockwell, serif;*/
 }
 
 a:hover {
-  color: gold;
+  color: var(--accent-color);
 }
 
-p {
+#credit {
   text-align: right;
   margin-right: 1%;
 }
