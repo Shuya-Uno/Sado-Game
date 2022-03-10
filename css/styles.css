@@ -44,6 +44,7 @@
 body {
   color: var(--main-color);
   background-color: var(--main-color);
+  /* access custom properties with var() */
   font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
