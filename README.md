@@ -5,6 +5,7 @@
 
 ・CYOA game (Multi-ending)  
 ・Can experience Japanese Tea Ceremony  
+・Can learn manners / dos and don'ts of Sado through each decisions  
 ・Full of jokes (especially in various endings)  
 ・Originally created for exchange students in Japan <!-- (to know about Japanese Tea Ceremony through fun game)   -->  
 ・Free for everyone!
