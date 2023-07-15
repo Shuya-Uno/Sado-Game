@@ -8,11 +8,9 @@
 */
 
 
-const target  = document.getElementsByClassName('routes')
+const routes  = document.getElementsByClassName('routes')
 // Cache collection of DOM queries
 
-const numberTargets = target.length;
-// Check how many nodes are in the collection
 
 
 function goTo(e) {
@@ -29,12 +27,11 @@ function goTo(e) {
          In this case, the class placed former to "routes" is referred
 */
 
-let i = 0;
-while (numberTargets > i) {
-  target[i].addEventListener('click', goTo);
-  i++;
+for (const targetEl of routes) {
+  targetEl.addEventListener('click', goTo);
 }
 /*
    Add event listener(click) to all nodes that has the class "routes"
-   Using the while loop to keep the code DRY
+   Updated the loop (while → for of) for the code to be more concise
+    (No need of caching the length of DOM Collection)
 */
